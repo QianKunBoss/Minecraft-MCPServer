@@ -60,15 +60,18 @@
 
 ```json
 {
+  "fileEditor": false,
   "httpPort": 8081,
   "ssl": {
     "enabled": false,
+    "keystorePath": "config/MCPServer/mcpserver-keystore.jks",
+    "keystorePassword": "mcpserver",
+    "keystoreType": "JKS",
     "certPath": "config/MCPServer/fullchain.pem",
     "keyPath": "config/MCPServer/privkey.key"
   },
-  "tokenMode": "persistent",
+  "tokenMode": "auto",
   "persistentToken": null,
-  "fileEditor": false,
   "shellEnabled": false,
   "shellTimeoutMs": 30000
 }
