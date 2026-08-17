@@ -1,0 +1,10 @@
+# 统一文本文件行尾为 LF，避免 Windows/Mac/Linux 协作者之间出现行尾 churn
+* text=auto eol=lf
+
+# 二进制文件
+*.jar binary
+*.png binary
+*.jks binary
+*.pem binary
+*.key binary
+*.zip binary

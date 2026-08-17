@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mcpserver",
+  "version": "${version}",
+  "name": "MCPServer",
+  "description": "MCP service interface for AI agent to monitor and analyze Minecraft server",
+  "authors": ["DU"],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+  "license": "MIT",
+  "icon": "assets/mcpserver/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "org.du.mcpserver.Mcpserver"
+    ]
+  },
+  "mixins": [
+    "mcpserver.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_dependency}",
+    "java": ">=17"
+  },
+  "suggests": {
+    "spark": ">=1.10.0"
+  }
+}

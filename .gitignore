@@ -1,0 +1,40 @@
+# ===== 构建产物 =====
+build/
+**/build/
+.gradle/
+**/.gradle/
+gradle-temp/
+bin/
+out/
+
+# ===== 运行时数据 / 密钥（切勿提交） =====
+run/
+*.jks
+*.pem
+*.key
+privkey*
+fullchain*
+config.json
+
+# ===== 日志 / 崩溃转储 =====
+*.log
+hs_err_pid*.log
+crash-reports/
+replay_pid*.log
+
+# ===== IDE / 编辑器 =====
+.idea/
+*.iml
+.vscode/
+
+# ===== WorkBuddy 本地数据 =====
+.workbuddy/
+
+# ===== 大型 / 打包产物 =====
+*.zip
+gradle-9.2.1-bin.zip
+skill-package/
+
+# ===== OS / 杂项 =====
+.DS_Store
+Thumbs.db
