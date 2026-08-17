@@ -60,4 +60,4 @@ python tools/build_all.py
 
 ## 许可证
 
-详见仓库 LICENSE 文件（如有）。
+本项目基于 [GPL-3.0 License](LICENSE) 开源。
