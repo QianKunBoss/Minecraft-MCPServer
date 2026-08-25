@@ -41,3 +41,5 @@ Thumbs.db
 
 # ===== Gradle wrapper jar（二进制，以 base64 形式 gradle-wrapper.jar.b64 随仓库分发；克隆后运行 tools/restore_wrappers.py 还原）=====
 gradle-wrapper.jar
+docs/mcmod-intro.md
+tools/upload_release_assets.py
