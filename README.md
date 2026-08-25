@@ -1,5 +1,9 @@
 # MCPServer — Minecraft Fabric 模组的 MCP 服务端
 
+<p align="center">
+  <img src="icon.png" alt="MCPServer 图标" width="200">
+</p>
+
 一个基于 Fabric 的 Minecraft 服务端模组，把服务器能力以 **MCP (Model Context Protocol)** 的形式通过 HTTP/HTTPS 暴露给 AI 助手（如 Claude Desktop、Cursor 等），让 AI 可以查询服务器状态、读取日志、管理玩家、触发性能分析、执行命令、记录行为等。
 
 ## 核心特性
