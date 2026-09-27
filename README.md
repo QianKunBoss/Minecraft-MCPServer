@@ -1,5 +1,7 @@
 # MCPServer — Minecraft Fabric 模组的 MCP 服务端
 
+> English version: [README_EN.md](README_EN.md)
+
 <p align="center">
   <img src="icon.png" alt="MCPServer 图标" width="200">
 </p>
